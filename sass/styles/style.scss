@@ -27,9 +27,35 @@ div {
       background-color: $primarybtn2;
     }
   }
-  div h2{
-    //לבדוק למה זה לא מביא את העיצוב של זה
-    //extend
-    @extend header;
-  }
+}
+div h2 {
+  //לבדוק למה זה לא מביא את העיצוב של זה
+  //extend
+  @extend header;
+}
+
+//חלק ב- סעיף ראשון
+.text-success {
+  color: green;
+  background-color: mix(green, #fff, 50%);
+  font-weight: 200;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+.text-danger {
+  color: rgb(226, 21, 21);
+  background-color: mix(red, #fff, 50%);
+  font-weight: 200;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+.text-warning {
+  color: rgb(246, 246, 6);
+  background-color: mix(yellow, #fff, 50%);
+  font-weight: 200;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: help;
 }
