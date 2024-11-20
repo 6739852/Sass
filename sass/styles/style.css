@@ -1,0 +1,32 @@
+header {
+  border-radius: 30px;
+  background-color: rgb(227, 169, 209);
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+body {
+  background-color: rgb(169, 210, 227);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+div li {
+  text-decoration: none;
+  background-color: rgb(169, 210, 227);
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div button {
+  background-color: rgb(169, 210, 227);
+  border-radius: 50ch;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+div button:hover {
+  background-color: rgb(227, 169, 209);
+}/*# sourceMappingURL=style.css.map */

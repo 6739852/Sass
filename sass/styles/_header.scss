@@ -1,0 +1,13 @@
+//ראש הדף
+//mixin
+@mixin flexCenter() {
+  padding: 20px;
+  text-align: center;
+  flex-direction:$direction ;
+}
+header {
+  border-radius: 30px;
+  background-color: $primarybtn2;
+  @include flexCenter(row);
+  color: $textcolor;
+}

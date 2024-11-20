@@ -1,0 +1,35 @@
+//חלק א
+@import "./variables";
+@import "./header";
+body {
+  background-color: $primarybtn1;
+  font-family: $textType;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  li {
+    //סעיף שני -חלק א
+    text-decoration: none;
+    background-color: $primarybtn1;
+    color: grey;
+    font-family: $textType;
+  }
+  button {
+    //סעיף שלישי -חלק א
+    background-color: $primarybtn1;
+    border-radius: 50ch;
+    color: $textcolor;
+    font-family: $textType;
+    @include flexCenter(row);
+    //סעיף רביעי -חלק א
+    &:hover {
+      background-color: $primarybtn2;
+    }
+  }
+  div h2{
+    //לבדוק למה זה לא מביא את העיצוב של זה
+    //extend
+    @extend header;
+  }
+}
